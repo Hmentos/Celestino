@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - Celestino Gastro-Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍽️ Celestino Grastro-Bar</h1>
+    <p>Cardápio Digital</p>
+  </header>
+
+  <nav class="categorias">
+    <button onclick="filtrarCategoria('todos')">Todos</button>
+    <button onclick="filtrarCategoria('entrada')">Entradas</button>
+    <button onclick="filtrarCategoria('principal')">Pratos Principais</button>
+    <button onclick="filtrarCategoria('bebida')">Bebidas</button>
+    <button onclick="filtrarCategoria('sobremesa')">Sobremesas</button>
+  </nav>
+
+  <main class="menu-grid" id="menu">
+    <!-- Os cards serão inseridos aqui via JavaScript -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
